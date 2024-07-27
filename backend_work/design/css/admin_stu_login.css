@@ -1,0 +1,43 @@
+form{
+    position: sticky;
+    left: 40%;
+    top: 40%;
+    width: 50% ;
+    
+}
+a{
+    text-decoration: none;
+    background-color: cyan;
+    color: white;
+    padding: 0.5rem;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+button{
+    margin-top: 2rem;
+    margin-left: 4rem;
+    padding: 1rem 3rem 1rem 3rem ;
+    border-radius: 1rem;
+    background-image: url('../images/btn.png');
+    border: 3px solid rgb(219, 241, 13);
+    color: aliceblue;
+    font-weight: bolder;
+}
+button:hover{
+   
+    background-image: url('../images/btn.png');
+    /* background-color: rgb(83, 83, 216); */
+    border: 3px solid rgb(181, 185, 145);
+    color: rgb(168, 202, 195);
+    font-weight: bolder;
+    
+}
+input{
+    padding:  1rem 4rem 1rem 4rem;
+    border-radius: 5rem;
+}
+body{
+    
+    background-image: url('../images/bgim.jpg');
+    background-size: cover;
+}

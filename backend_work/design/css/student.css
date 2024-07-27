@@ -1,0 +1,56 @@
+div{
+    border: 2px solid rgb(56, 100, 79);
+    width: 30%;
+    height:50% ;
+    position: fixed;
+    top: 25%;
+    left: 30%;
+    background-color: rgb(21, 122, 87);
+    box-shadow:5px 9px 45px 6px;
+    border-radius: 5px;
+    
+}
+a{
+    position: absolute;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 2px;
+    background-color: cyan;
+    color: white;
+}
+body{
+    
+    background-color: rgb(40, 128, 55);
+}
+form{
+    /* border: 2px solid black; */
+    position: fixed;
+    top: 40%;
+    left: 39%;
+}
+#bgim{
+    height: 100%;
+    width: 100%;
+}
+button{
+    margin-top: 1.9rem;
+    margin-left: 3.5rem;
+    color: rgb(0, 0, 2);
+    background-color: rgb(37, 44, 109);
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: rgb(153, 152, 214);
+    color: rgb(64, 117, 53);
+}
+input{
+    padding:8px 18px 13px 32px;
+    border-radius: 20px;
+}
+p{
+    margin-left: 3rem;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+}

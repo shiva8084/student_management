@@ -1,0 +1,75 @@
+<html>
+    <head>
+       <title><%= title%></title>
+       <link rel="stylesheet" href="../css/displayadmin.css"> 
+    </head>
+    <body>
+        <div class="div1">
+            <a href="/edit" class="set" target="_blank"><p>EDIT</p></a>
+        </div >
+        <div class="div1">
+            <a href="/backtostudentlogin" class="set" target="_blank"><p>BACK</p></a>
+        </div>
+        <div id="bgset">
+        <table border="1px">
+            <thead>
+                <tr style="background-color: rgb(201, 155, 155);"> 
+                    <th>attribute</th>
+                    <th>value</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr style="background-color: rgb(233, 229, 209);">
+                        <th>STUDENT ID</th>
+                        <td><%= data[0].stu_id%></td>
+                    </tr>
+                    
+                    <tr  style="background-color: rgb(146, 126, 106);">
+                        <th>NAME</th>
+                        <td><%= data[0].name%></td>
+                    </tr>
+                    <tr  style="background-color: rgb(216, 208, 200);">
+                        <th>DATE OF BIRTH</th>
+                        <td><%= data[0].date_of_birth%></td>
+                    </tr>
+                    <tr  style="background-color: rgb(146, 126, 106);">
+                        <th>GENDER</th>
+                        <td><%= data[0].gender%></td>
+                    </tr>
+                    <tr style="background-color: rgb(192, 176, 159);">
+                        <th>ADDRESS</th>
+                        <td><%= data[0].address%></td>
+                    </tr>
+                    <tr style="background-color: rgb(146, 126, 106);">
+                        <th>FATHER NAME</th>
+                        <td><%= data[0].father_name%></td>
+                    </tr>
+                    <tr style="background-color: rgb(199, 185, 172);">
+                        <th>MOTHER NAME</th>
+                        <td><%= data[0].mother_name%></td>
+                    </tr>
+                    <tr  style="background-color: rgb(146, 126, 106);">
+                        <th>EMAIL</th>
+                        <td><%= data[0].email%></td>
+                    </tr>
+                    <tr style="background-color: rgb(207, 196, 185);">
+                        <th>MOBILE NO</th>
+                        <td><%= data[0].mobile_no%></td>
+                    </tr>
+                    <tr style="background-color: rgb(146, 126, 106);">
+                        <th>CLASS TEACHER</th>
+                        <td><%= data[0].class_teacher%></td>
+                    </tr>
+                    
+            </tbody>
+        </table>
+        
+        <div class="href">
+            <a href="/marksadmin" class="set" target="_blank"><p>MARKS EDIT</p></a>
+        </div>
+        <div class="href">
+            <a href="/marksadminview" class="set" target="_blank"><p>MARKS VIEW</p></a>
+        </div>
+    </div>
+    </body>
+</html>

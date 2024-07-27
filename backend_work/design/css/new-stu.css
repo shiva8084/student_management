@@ -1,0 +1,45 @@
+body{
+    background-image: url('../images/bg1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    position:sticky;
+    top: 50%;
+}
+p{
+    color: white;
+    font-size: larger;
+}
+input{
+    padding: 1rem 3rem 1rem 3rem;
+    border-radius: 1rem;
+    margin-left: 2rem;
+}
+button{
+    display: block;
+    margin-top: 3rem;
+    padding: 1rem 3rem 1rem 3rem;background-color: rgb(221, 57, 79);
+    color: white;
+    font-size: large;
+    border: 2px solid rgb(110, 27, 27);
+    border-radius: 1rem;
+    margin-left: 2rem;
+}
+a{
+    position: static;
+    margin-top: 1rem;
+    text-decoration: none;
+    color: white;
+    background-color: cyan;
+    font-size: large;
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+button:hover{
+    
+    padding: 1rem 3rem 1rem 3rem;background-color: rgb(224, 107, 122);
+    color: rgb(17, 28, 66);
+   
+    border: 2px solid rgb(143, 62, 62);
+}

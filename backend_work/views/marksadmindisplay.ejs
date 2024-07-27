@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/marksadmindisplay.css">
+</head>
+<body>
+    <div>
+        <a href="/displayadmin" class="set" target="_blank"><p>BACK</p></a>
+    </div>
+    <table border="1px">
+        <thead >
+            <th>SUBJECT</th>
+            <th>IA1</th>
+            <th>IA2</th>
+            <th>IA3</th>
+            <th>FINAL</th>
+        </thead>
+        <tbody>
+            <% if(data.length>0){ %>
+                <% data.forEach((row)=>{ %>
+            <tr>        
+                <th><%= row.subject%></th>
+                <td><%= row.ia1%></td>
+                <td><%= row.ia2%></td>
+                <td><%= row.ia3%></td>
+                <td><%= row.final%></td>
+            </tr>
+            <% })}else{ %>
+                <tr>
+                    <td colspan="5">no data found</td>
+                </tr>
+                <% } %>
+        </tbody>
+    </table>
+</body>
+</html>

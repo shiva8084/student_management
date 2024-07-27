@@ -1,0 +1,24 @@
+body{
+    background-image: url('../images/marks.jpg');
+}
+a{
+    text-decoration: none;
+}
+p{
+    background-color: rgba(77, 221, 173, 0.918);
+    width: fit-content;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    color: aliceblue;
+    border-radius: 5px;
+    
+}
+p:hover{
+    background-color: rgba(138, 240, 206, 0.425);
+    color: aqua;
+}
+table{
+    position: sticky;
+   margin-top: 10rem;
+    left: 40%;
+    background-color: antiquewhite;
+}

@@ -1,0 +1,57 @@
+#sentry{
+    height: 8rem;
+    border: 2px solid black;
+    
+    
+}
+h1{
+    position:absolute;
+    z-index: 1;
+    top: 0%;
+    color: white;
+    font-size: 50px;
+    left: 25%;
+    text-decoration: underline;
+}
+
+#tentry{
+    height: 8rem;
+    border: 2px solid black;
+    
+}
+
+.d{
+    display: inline-block;
+}
+
+#div1{
+    position: absolute;
+    top: 40%;
+    left: 42%;
+}
+
+#div2{
+    position: absolute;
+    top: 40%;
+    left:53%;
+}
+
+a{
+ text-decoration: none; 
+ color: rgb(238, 225, 225);  
+font-size: 1.6rem;
+border: 2px solid   #c0443d;
+background-color:  #dd7973;
+border-radius: 5px;
+padding: 3px;
+}
+a:hover{
+    background-color:   #c49a97;
+    color: #005268;
+}
+
+
+#bgim{
+    height: 100%;
+    width: 100%;
+}

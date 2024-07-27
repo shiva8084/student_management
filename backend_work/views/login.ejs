@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>
+            <%=title%>
+        </title>
+        
+        <link rel="stylesheet" href="../css/login.css">
+    </head>
+    <body>
+        <a href="/home">HOME</a>
+        <div id="div1">
+            <br>
+            <h1>Login</h1>
+        <form action="loginpost" method="post">
+            <div>
+               
+                <input type="text" name="nm" placeholder="username" required>
+            </div>
+            <br>
+            
+            <div>
+                
+                <input type="password" name="psswd" placeholder="password" maxlength="10"  required >
+            </div>
+            <br>
+            <button type="submit"><strong>LOGIN</strong></button>
+        </form>
+    </div>
+    </body>
+</html>

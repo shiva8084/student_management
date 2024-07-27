@@ -1,0 +1,41 @@
+thead{
+    background-color: rgb(70, 39, 19);
+    color: rgb(245, 248, 250);
+}    
+
+
+table{
+    height: 20%;
+    white-space: 3px;
+}
+#div1{
+    position: fixed;
+    top: 40%;
+    left: 40%;
+    height: 50%;
+}
+p{
+    background-color:  #03ffab;
+    width: 50px;
+    border: 2x solid rgb(19, 133, 133);
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+    padding: 3px 5px 3px 5px;
+}p:hover{
+    background-color: #bae9d5;
+    color: rgb(0, 0, 255);
+}
+a{
+    text-decoration: none;
+    background-color: aquamarine;
+}
+
+#bg{
+    background-color: rgb(191, 212, 231);
+    box-shadow: 2px 3px 17px 10px;
+}
+
+
+body{
+background-image: url('../images/marks.jpg');
+}
